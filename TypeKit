@@ -1,0 +1,9 @@
+h1 {font-family: "refrigerator-deluxe",sans-serif; font-style: normal;font-weight: 700;}
+
+h2 {font-family: "refrigerator-deluxe",sans-serif; font-style: normal;font-weight: 700;}
+
+sidebar-primary h1 {font-family: "refrigerator-deluxe",sans-serif; font-style: normal;font-weight: 700;}
+
+sidebar-primary h2 {font-family: "refrigerator-deluxe",sans-serif; font-style: normal;font-weight: 700;}
+
+body {font-family: "refrigerator-deluxe",sans-serif;font-style: normal;font-weight: 400;}
