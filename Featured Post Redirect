@@ -1,0 +1,10 @@
+
+
+///This will pull your link from the custom field/// 
+"featured_external":
+<?php $key="featured_external"; $custom = get_post_meta($post->ID, $key, true); ?>
+
+///This will create the link when wrapped around wherever you call the featured image:///
+<a>ID, $key, true); ?>" title="<?php the_title(); ?>">
+<?php the_post_thumbnail(); ?>
+</a>
