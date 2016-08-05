@@ -1,0 +1,11 @@
+
+
+
+<?php the_post_thumbnail(); ?>
+
+<?php $name = get_post_meta($post->ID, 'ExternalUrl', true);
+if( $name ) { ?>
+<a href="<?php echo $name; ?>"><?php the_post_thumbnail(); ?></a>
+<?php } else {
+the_post_thumbnail();
+} ?>
